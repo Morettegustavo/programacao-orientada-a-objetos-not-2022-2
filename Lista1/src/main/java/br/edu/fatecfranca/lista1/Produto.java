@@ -41,4 +41,18 @@ public class Produto {
         }
         
     }
+    
+    public void mostrar() {
+        System.out.println(" Nome: " + this.nome + " Qtde: " + this.qtde + " Preço " + this.preco);
+    }
+    
+    public void subir(double x) {
+        this.preco += x;
+    }
+    
+    public void descer(double x) {
+        if(this.preco >= x){
+            this.preco -= x;
+        }
+    }
 }

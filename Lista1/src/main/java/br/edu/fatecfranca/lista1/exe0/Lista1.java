@@ -26,7 +26,7 @@ public class Lista1 {
         obj1.vender(5);
         System.out.println(" Quantidade estoque depois de vender 5 unidades: " + obj1.qtde);
         
-        
+        obj1.mostrar();
         System.out.println(" Nome: " + obj1.nome + ", Qtde: " + obj1.qtde + ", Preço " + obj1.preco);
         
         // vamos instanciar explorando o método construtor
@@ -34,6 +34,16 @@ public class Lista1 {
         // método que inicializa as variáveis da classe
         
         Produto obj2 = new Produto("bola de basquete", 10, 93.90);
+        obj2.mostrar();
         System.out.println(" Nome: " + obj2.nome + ", Qtde: " + obj2.qtde + ", Preço " + obj2.preco);
+        
+        
+        
+         System.out.println(" Valor inicial: " + obj2.preco);
+         obj2.subir(2.1);
+         System.out.println(" Subindo 2.1 no valor: " + obj2.preco);
+         obj2.descer(3);
+         System.out.println(" Descendo o valor 3 no valor: " + obj2.preco);
+        
     }
 }
