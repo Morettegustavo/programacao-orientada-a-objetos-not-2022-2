@@ -3,7 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package br.edu.fatecfranca.lista1;
+package br.edu.fatecfranca.lista1.exe0;
+
+import br.edu.fatecfranca.lista1.Produto;
 
 /**
  *
@@ -37,13 +39,13 @@ public class Lista1 {
         obj2.mostrar();
         System.out.println(" Nome: " + obj2.nome + ", Qtde: " + obj2.qtde + ", Preço " + obj2.preco);
         
+        System.out.println(" Valor inicial: " + obj2.preco);
+        obj2.subir(2.1);
+        System.out.println(" Subindo 2.1 no valor: " + obj2.preco);
+        obj2.descer(3);
+        System.out.println(" Descendo o valor 3 no valor: " + obj2.preco); 
         
         
-         System.out.println(" Valor inicial: " + obj2.preco);
-         obj2.subir(2.1);
-         System.out.println(" Subindo 2.1 no valor: " + obj2.preco);
-         obj2.descer(3);
-         System.out.println(" Descendo o valor 3 no valor: " + obj2.preco);
         
     }
 }
