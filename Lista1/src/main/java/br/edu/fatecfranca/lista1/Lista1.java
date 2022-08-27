@@ -3,9 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package br.edu.fatecfranca.lista1.exe0;
+package br.edu.fatecfranca.lista1;
 
-import br.edu.fatecfranca.lista1.Produto;
+import br.edu.fatecfranca.lista1.exe3.Produto;
 
 /**
  *
