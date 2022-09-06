@@ -7,8 +7,6 @@ public class Testa {
         obj1.dadosAluno();
         
         
-        
-        
         // d)	Tente acessar as variáveis de instância da classe Aluno sem os métodos get e set. O que acontece?
         
         
