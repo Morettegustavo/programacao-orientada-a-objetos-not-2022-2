@@ -37,12 +37,8 @@ public class Assistente extends Funcionario{
                 super.toString() + '}';
     }
 
-    
-    
-
-    
-    
-    
-    
-    
+    @Override
+    public float calculaSalario(){
+        return this.salario + (this.horaExtras * (this.salario / this.cargaHoraria));
+    }
 }

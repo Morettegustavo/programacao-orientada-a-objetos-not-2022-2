@@ -21,4 +21,9 @@ public class Gerente extends Funcionario {
         return "Gerente{" + "bonificacao=" + bonificacao + "\n" +
                 super.toString() + '}';
     }    
+    
+    @Override
+    public float calculaSalario(){
+        return this.salario + this.bonificacao;
+    }
 }

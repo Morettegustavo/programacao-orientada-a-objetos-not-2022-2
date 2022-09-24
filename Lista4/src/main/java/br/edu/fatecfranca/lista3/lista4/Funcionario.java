@@ -61,5 +61,9 @@ public class Funcionario {
                 ", codigo=" + codigo + ", salario=" + salario + 
                 ", cargaHoraria=" + cargaHoraria + '}';
     }
+    
+    public float calculaSalario(){
+        return this.salario;
+    }
       
 }
