@@ -7,17 +7,18 @@ public class Gerente extends Funcionario {
         super();
     }
 
-    public Gerente(String nome, String cpf, int codigo, float salario, float cargaHoraria) {
+    public Gerente(float bonificacao, String nome, String cpf, int codigo, float salario, float cargaHoraria) {
         super(nome, cpf, codigo, salario, cargaHoraria);
+        this.bonificacao = bonificacao;
     }
-
+    
     public float getBonificacao() {
         return bonificacao;
     }
 
     @Override
     public String toString() {
-        return "Gerente{" + "bonificacao=" + bonificacao + 
+        return "Gerente{" + "bonificacao=" + bonificacao + "\n" +
                 super.toString() + '}';
     }    
 }

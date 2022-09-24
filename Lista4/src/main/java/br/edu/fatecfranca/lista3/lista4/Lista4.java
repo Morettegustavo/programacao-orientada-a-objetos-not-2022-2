@@ -1,17 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-
 package br.edu.fatecfranca.lista3.lista4;
 
-/**
- *
- * @author 1090482113014
- */
 public class Lista4 {
 
+    public static void converteString(Funcionario objFuncionario){
+        // objFuncionario = objGerente
+        // OU
+        // objFuncionario - objASssistente
+        // OU 
+        
+        System.out.println(objFuncionario.toString());
+    }
+    
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Gerente objGerente = new Gerente(2000, "Fulano", "123", 1, 4000, 40);
+        converteString(objGerente);
+        
+        Assistente objAssistente = new Assistente(10, "Fulano", "Beltrano", "345", 2, 2000, 40);
+        converteString(objAssistente);
+        
+        Diretor objDiretor = new Diretor(10, "Ciclano", "789", 3, 5000, 40);
+        converteString(objDiretor);
     }
 }
