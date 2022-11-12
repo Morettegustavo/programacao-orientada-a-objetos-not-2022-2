@@ -1,13 +1,34 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package br.edu.fatecfranca.lista3.lista5.exe1;
+public class Pessoa extends Animal implements ICidadao, IContribuinte, IProfessor {
 
-/**
- *
- * @author 1090482113014
- */
-public class Pessoa {
+    @Override
+    public void vota() {
+        System.out.println("Pessoa votando");
+    }
+
+    @Override
+    public void tiraRg() {
+        System.out.println("Pessoa tirando rg");
+    }
+
+    @Override
+    public void pagaIr() {
+        System.out.println("Pessoa pagando imposto de renda");
+    }
+
+    @Override
+    public void tiraCpf() {
+        System.out.println("Pessoa tirando CPF");
+    }
+
+    @Override
+    public void ensina() {
+        System.out.println("Pessoa ensinando");
+    }
+
+    @Override
+    public void trabalho() {
+        System.out.println("Pessoa trabalhando");
+    }
     
 }
