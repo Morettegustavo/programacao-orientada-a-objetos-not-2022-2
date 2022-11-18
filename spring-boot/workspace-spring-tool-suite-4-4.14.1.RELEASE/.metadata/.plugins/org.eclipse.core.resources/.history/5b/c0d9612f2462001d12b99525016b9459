@@ -1,0 +1,5 @@
+package br.edu.fatecfranca.controller;
+
+public class Saudacao {
+
+}
